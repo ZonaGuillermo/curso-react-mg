@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+// import MostrarCosas from './components/MostrarCosas';
 import './App.css';
+import ListaPersonas from './components/ListaPersonas';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MostrarCosas></MostrarCosas> */}
+      <ListaPersonas />
     </div>
   );
 }
